@@ -1,0 +1,63 @@
+body{
+    background: #eae8ec;
+}
+.addbutton {
+    color: #090909;
+    margin-top: 35px;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+}
+   
+.addbutton:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+}
+
+.day{
+    background-color: #78C7C7;
+    border-radius: 10px;
+    height: 30px;
+    padding: 2px;
+}
+.course{
+    background-color: #81D8D0;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 5px;
+}
+.time{
+    background-color:  #afeeee;
+    margin-left: 5px;
+    border-radius: 10px;
+    height: 35px;
+    padding: 2px;
+}
+.classroom{
+    background-color: #F8A9A9;
+    border-radius: 10px;
+}
+.head{
+    background-color: #F8BCBC;
+    border-radius: 10px;
+}
+.even{
+    background-color: #faeaea;
+    text-align: center;
+    border-radius: 10px;
+}
+#classdetails{
+    width: 40%;
+}
+#classdetails tr{
+    height: 35px;
+}
+h1{
+    font-size: 22px;
+}

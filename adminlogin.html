@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="CSS/login.css">
+        <title>Welcome Admin!</title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <div class="text">Admin Login</div>
+            <form action="adminverify.php" method="post">
+                <div class="field">
+                    <span class="bx bxs-user"></span>
+                    <input type="text" name="user" autocomplete="off" required placeholder="Enter UserID">
+                </div>
+                <div class="field">
+                    <span class="bx bxs-lock-alt"></span>
+                    <input type="password" name="pass" required placeholder="Enter Password">
+                </div>
+                <input id="button" type="submit" name="submit">
+            </form>
+            <form action="home.html">
+                <input type="submit" id="back" value="Back">
+            </form>
+        </div>
+        </body>
+</html>
